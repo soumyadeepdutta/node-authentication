@@ -1,0 +1,39 @@
+{
+  "name": "node-authentication",
+  "version": "1.0.0",
+  "description": "NodeJS Authentication boiler-plate with JWT and MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadeepdutta/node-authentication.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "authentication",
+    "jwt"
+  ],
+  "author": "Soumyadeep Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadeepdutta/node-authentication/issues"
+  },
+  "homepage": "https://github.com/soumyadeepdutta/node-authentication#readme"
+}
